@@ -1,0 +1,20 @@
+.mian-container{
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid gray;
+    height: 107px;
+    width: 571px;
+    margin-top: 21px;
+    padding: 8px;
+}
+.mian-container img{
+    height: 91px;
+    width: 91px;
+
+}
+.review-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
