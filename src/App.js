@@ -13,7 +13,11 @@ function App() {
       path: '/',
       element: <Main></Main>,
       children: [
-        { path: '/', element: <Body></Body> },
+        {
+          path: '/',
+          loader: LoadApi,
+          element: <Body></Body>
+        },
         {
           path: '/shop',
           loader: LoadApi,
