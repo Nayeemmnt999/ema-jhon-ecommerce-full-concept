@@ -5,8 +5,8 @@ import CartInformation from './CartInformation';
 import { removeIdInCart } from '../Database/Database';
 
 const Order = () => {
-    const { products, previousCart } = useLoaderData();
-    // console.log(products);
+    const { previousCart } = useLoaderData();
+    console.log(previousCart);
     const [cart, setCart] = useState(previousCart)
 
     const removeFormCart = (id) => {

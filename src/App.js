@@ -25,7 +25,7 @@ function App() {
           element: <Order></Order>
         },
         { path: '/inventory', element: <Inventory></Inventory> },
-        { path: '/log-in', element: <Login></Login> },
+        { path: '/log-in', element: <Login></Login>, },
       ]
     }
   ])
