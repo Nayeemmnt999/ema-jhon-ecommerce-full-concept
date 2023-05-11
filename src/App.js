@@ -6,6 +6,7 @@ import Order from './componant/Order/Order';
 import Inventory from './componant/Inventory/Inventory';
 import Login from './componant/Login/Login';
 import { LoadApi } from './api/LoadApi/LoadApi';
+import SignUp from './componant/SignUp/SignUp';
 
 function App() {
   const router = createBrowserRouter([
@@ -30,6 +31,7 @@ function App() {
         },
         { path: '/inventory', element: <Inventory></Inventory> },
         { path: '/log-in', element: <Login></Login>, },
+        { path: '/signup', element: <SignUp></SignUp> },
       ]
     }
   ])
