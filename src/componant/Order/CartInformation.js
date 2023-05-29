@@ -1,7 +1,7 @@
 import React from 'react';
 import './cartInformation.css'
 const CartInformation = ({ product, removeFormCart }) => {
-    console.log(product);
+    // console.log(product);
     const {id, name, img, quantity, price } = product;
     return (
         <div className='mian-container'>

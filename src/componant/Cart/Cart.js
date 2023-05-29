@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cart.css'
+import { Link } from 'react-router-dom';
 
 const Cart = ({ cart }) => {
     let total = 0;
@@ -21,6 +22,7 @@ const Cart = ({ cart }) => {
             <p>Shiping Charge ${shipingCharge}</p>
             <p>Tax ${tax.toFixed(0)}</p>
             <h3>Grand Total ${grandTotal}</h3>
+           
         </div>
     );
 };

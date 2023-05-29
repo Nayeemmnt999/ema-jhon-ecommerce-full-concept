@@ -3,7 +3,7 @@ import Cart from '../Cart/Cart';
 import { fakedata, getStoredCart } from '../Database/Database';
 import Products from '../Products/Products';
 import './Body.css'
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 
 const Body = () => {
     // const products = useLoaderData();
@@ -56,6 +56,7 @@ const Body = () => {
             </div>
             <div className="cart-container">
                 <Cart cart={cart}></Cart>
+                <Link to={'/order'}>Maneg order</Link>
             </div>
         </div>
     );
